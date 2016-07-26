@@ -1,4 +1,21 @@
-<input type="text" ng-model="madLib.adjective" id="adjective" placeholder="adjective">
-<input type="text" ng-model="madLib.verb" id="verb" placeholder="verb">
+<div class="instructions">
+  <p>Fill out the input fields below.<br /> When you have finished making them awesome,
+    click the "GENERATE STORY" button to read your enthrolling narrative!</p>
+</div>
 
-<button ng-click="ourFunction(madLib)">Click</button>
+<div class="inputFields">
+  <input type="text" ng-model="madLib.noun" id="noun" class="input" placeholder="Noun"><br />
+  <input type="text" ng-model="madLib.adjective" id="adjective" class="input" placeholder="Adjective"><br />
+  <input type="text" ng-model="madLib.noun2" id="noun2" class="input" placeholder="Noun"><br />
+  <input type="text" ng-model="madLib.pluralNoun" id="pluralNoun" class="input" placeholder="Plural noun"><br />
+  <input type="text" ng-model="madLib.verb" id="verb" class="input" placeholder="Verb"><br />
+  <input type="text" ng-model="madLib.adjective2" id="adjective2" class="input" placeholder="Adjective"><br />
+  <input type="text" ng-model="madLib.adverb" id="adverb" class="input" placeholder="Adverb"><br />
+  <input type="text" ng-model="madLib.adjective3" id="adjective3" class="input" placeholder="Adjective"><br />
+  <input type="text" ng-model="madLib.adjective4" id="adjective4" class="input" placeholder="Adjective"><br />
+  <input type="text" ng-model="madLib.pluralNoun2" id="pluralNoun2" class="input" placeholder="Plural noun"><br />
+  <input type="text" ng-model="madLib.noun3" id="noun3" class="input" placeholder="Noun"><br />
+  <input type="text" ng-model="madLib.noun4" id="noun4" class="input" placeholder="Noun"><br />
+  <input type="text" ng-model="madLib.verb2" id="verb2" class="input" placeholder="Verb"><br />
+  <button ng-click="ourFunction(madLib)" id="button">GENERATE STORY</button>
+</div>

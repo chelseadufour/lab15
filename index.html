@@ -3,13 +3,19 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Candal|Esteban" rel="stylesheet">
     <title>lab 15 mad libs</title>
   </head>
   <body ng-app="madLibsApp">
 
 <!-- adj. entered will be stored as object with adjective property -->
-    <a href="#/view1">view 1</a>
-    <a href="#/view2">view 2</a>
+<nav>
+  <h1>STAR WARS MAD LIBS</h1>
+  <ul>
+    <li><a href="#/view1">Input</a></li>
+    <li><a href="#/view2">The Story</a></li>
+  </ul>
+</nav>
 
     <div ng-view=""></div>
 
